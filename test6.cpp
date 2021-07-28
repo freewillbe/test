@@ -1,5 +1,6 @@
 // kaoshi			
 #include<iostream>			
+#include<stdlib.h>			
 #include <ctime>			
 using namespace std;			
 			
@@ -2027,7 +2028,147 @@ int multipleChoice190()
     	cout << "回答错误! 正确答案是 A" << endl;		
 }			
 			
-			
+int question191()			
+{			
+	string question = "多选题：	起重作业中，一般采用麻芯钢丝绳，这是因为它()。	A 柔软 B 易弯曲及抗冲击性能好 C 重量轻 D 容易制造";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "ab")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 AB" << endl;		
+}			
+
+int question192()			
+{			
+	string question = "多选题：钢丝绳股内相邻钢丝的接触状态有()。	A 点接触 B 线接触 C 面接触 D 不接触";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "abc")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 ABC" << endl;		
+}			
+
+int question193()			
+{			
+	string question = "多选题：缆索式起重机的机构包括()。	A 起升机构 B 索引机构 C 大车运行机构 D 变幅机构";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "abc")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 ABC" << endl;		
+}			
+
+int question194()			
+{			
+	string question = "多选题：用绳卡固定钢丝绳，其安全要求是()。	A 绳卡个数不得少于3个 B 绳卡和钢丝绳规格一致 C 绳卡间距应是钢丝绳直径5倍 D 压板压在长绳一边";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 ABD" << endl;		
+}			
+
+int question195()			
+{			
+	string question = "多选题：确定物体重心的常用实验方法有()。		A 几何法 B 悬挂法 C 称重法 D 比较法";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "bc")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 BC" << endl;		
+}			
+
+int question196()			
+{			
+	string question = "多选题：对运行操作的基本要求是做到“三稳”，即()。	 	A 起车稳 B 运行稳 C 下降稳 D 停车稳";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "abd")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 ABD" << endl;		
+}	
+
+int question197()			
+{			
+	string question = "多选题：起升机构的制动轮轮缘的磨损量为轮缘厚度的()时，制动轮可继续使用。	A 50% B 40% C 30% D 20%";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "cd")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 CD" << endl;		
+}			
+
+int question198()			
+{			
+	string question = "多选题：在施工中需要进行面积计算，是为了合理的选择()。	A施工场地 B 节省开支 C 施工方法 D 节省人员";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "ac")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 AC" << endl;		
+}			
+
+int question199()			
+{			
+	string question = "多选题：起重机械金属结构应满足结构构件在运输、安装和使用过程中的()和有关安全性方面的要求，并符合防火、防腐蚀要求。		A 强度 B 稳定性 C 刚性 D 弹性";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "abc")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 ABC" << endl;		
+}	
+
+int question200()			
+{			
+	string question = "多选题：按《特种设备安全法》规定，特种设备事故调查组应当()开展调查，提出事故调查报告。	A 依法 B 独立 C 公正 D 公开";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "abc")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 ABC" << endl;		
+}			
+
+int question201()			
+{			
+	string question = "多选题：";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}			
+
+int question202()			
+{			
+	string question = "";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "t")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
+
+
+
+
+
+
+
+
+
+
 int ran()			
 {			
 	srand((unsigned)time(NULL));            		
@@ -2458,8 +2599,18 @@ int multipleChoice()
 }			
 			
 			
+int question()			
+{			
+	string question = "多选题：";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}			
 	if(ran() == 4)		
-		cout << multipleChoice4() << endl;	
+		cout << question4() << endl;	
 			
 			
 			
