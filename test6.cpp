@@ -2140,18 +2140,18 @@ int question200()
 
 int question201()			
 {			
-	string question = "多选题：";	
+	string question = "门式起重机的钢结构(桥架)主要由主梁、端梁、栏杆、走台、轨道和司机室等构件组成。";	
     cout <<  question << endl;			
     cin >> question;			
-    if(question == "c")			
+    if(question == "f")			
     	cout << "Correct! 回答正确!" << endl;		
     else			
-    	cout << "回答错误! 正确答案是 C" << endl;		
+    	cout << "回答错误!" << endl;		
 }			
 
 int question202()			
 {			
-	string question = "";	
+	string question = "在化工区内从事起重作业，必须遵守化工区内的其它各项安全规定。";	
     cout <<  question << endl;			
     cin >> question;			
     if(question == "t")			
@@ -2160,14 +2160,416 @@ int question202()
     	cout << "回答错误!" << endl;		
 }			
 
+int question203()			
+{			
+	string question = "桥、门式起重机由大车和小车两部分组成。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "t")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
 
+int question204()			
+{			
+	string question = "起重量与幅度的乘积称为起重力矩。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "t")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
+int question205()			
+{			
+	string question = "施工升降机的吊笼应有足够刚性的导向装置以防脱落或卡住。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "t")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
 
+int question206()			
+{			
+	string question = "流动式起重机的起重量是表示重大额定起重量。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "t")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
+int question207()			
+{			
+	string question = "禁止利用起重机吊具运送或起升人员。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "t")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
+int question208()			
+{			
+	string question = "操纵电磁吸盘式起重机时，严禁任何人员在移动物下面工作或通过。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "t")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
+int question209()			
+{			
+	string question = "在捆绑或吊运重物时，不应使钢丝绳直接和重物的锐角相接触。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "t")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
+int question210()			
+{			
+	string question = "当吊装工不止一人时，则在任一次操作中，根据他们相对起重机的位置，只应由其中一人负责。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "t")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
+int question211()			
+{			
+	string question = "当钢丝绳绳芯损坏时会引起绳径增大。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "f")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
+int question212()			
+{			
+	string question = "物体在两个力的作用下，保持平衡的条件是：这两个力的大小相等，方向相反，且作用在同一条直线上。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "t")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
 
+int question213()			
+{			
+	string question = "起重作业通常是单人完成的，不需要其他人配合。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "f")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
 
+int question214()			
+{			
+	string question = "起吊不明重量的物件应慢慢起吊。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "f")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
+int question215()			
+{			
+	string question = "滑车不准超载使用。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "t")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
+int question216()			
+{			
+	string question = "抓斗起重机的额定载重量即抓斗能抓取的物料的重量。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "f")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
+int question217()			
+{			
+	string question = "采用无线遥控的起重机械，起重机械上应设有明显的遥控工作指示灯。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "t")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
+int question218()			
+{			
+	string question = "起重机械报废的，使用单位无需到登记部门办理使用登记注销。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "f")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
+int question219()			
+{			
+	string question = "《特种设备安全法》规定，特种设备安全管理人员，检测人员和作业人员应当按照国家有关规定取得相应资格，方可从事相关工作。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "t")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
 
+int question220()			
+{			
+	string question = "《特种设备安全法》     规定，特种设备使用单位的特种设备安全技术档案包括特种设备的运行故障核事故记录。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "t")			
+    	cout << "回答正确!" << endl;		
+    else			
+    	cout << "回答错误!" << endl;		
+}			
 
+int question221()			
+{			
+	string question = "一般钢丝绳弹性减小伴随着绳径()。	 A 不变 B 增大 C 减小 D 轻微增大";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}	
 
+int question222()			
+{			
+	string question = "起重机构必须安装（）制动器。		A 常开式 B 常闭式 C 电气式 D 反接";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "b")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 B" << endl;		
+}	
 
+int question223()			
+{			
+	string question = "起重机的()由驱动装置、制动装置、传动装置和回转支撑装置组成。	A 起升机构 B 运行机构 C 旋转机构 D 变幅机构";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}	
+
+int question224()			
+{			
+	string question = "吊环使用时必须注意其受力方向，最佳的受力方向为()。	A 纵向B 垂直 C 横向 D 以上都不对";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "b")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 B" << endl;		
+}	
+int question225()			
+{			
+	string question = "钢丝绳在使用过程中，如长度不够时，可采用()连接。	 A 打结B叉街 C 卸扣 D 随意";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}	
+int question226()			
+{			
+	string question = "当啮合控制装置间接作用到齿条上时，齿轮与齿条的模数不小于()。 	A 6 B 8 C 10 D 12";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "a")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 A" << endl;		
+}	
+int question227()			
+{			
+	string question = "起重量与幅度的乘积为()。		A 额定起重量 B 起重量 C 起重力矩 D 起重倾覆力矩";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}	
+int question228()			
+{			
+	string question = "回转速度规定在()m高处风速不超过3m/s的条件下，起重机置于水平场地上，带工作载荷、幅度最大时进行测定。	A 5 B 10 C 15 D 20";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "b")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 B" << endl;		
+}	
+int question229()			
+{			
+	string question = "()是起重机置于水平场地时，从其回转平台的中心线至取物装置垂直中心线的水平距离。	 A 跨度 B 幅度 C 起升高度 D 起升范围";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "b")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 B" << endl;		
+}	
+int question230()			
+{			
+	string question = "在吊笼内载荷不超过额定载重量时，对于额定速度小于等于1.33m/s大于1m/s的升降机，安全装置停止吊笼时的制动距离应满足()。   A 0.10 - 1.40m B 0.20 - 1.60m C 0.30 - 1.8m D 0.40 - 2.00m";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}	
+int question231()			
+{			
+	string question = "钢板起重钳的竖钳用于钢板的水平吊运，上有锁紧手柄，结构较()。	A 简单 B 单一 C 复杂 D 平稳";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}	
+
+int question232()			
+{			
+	string question = "与钢丝绳配用的滑轮直径过小会影响钢丝绳的使用()。   A 周期 B 性能 C 寿命 D 水平";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}	
+int question233()			
+{			
+	string question = "桥式起重机在制造时，主梁跨中应具有()的上拱度。   A S/500 B S/700 C S/800 D S/1000";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "D")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 D" << endl;		
+}	
+int question234()			
+{			
+	string question = "()的作用是使起重机与支撑面形成刚性支撑，以提高流动式起重机的工作能力和稳定性。    A 起升机构 B 伸缩机构 C 支腿机构 D 回转机构";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}	
+int question235()			
+{			
+	string question = "挠性变幅机构必须安装()制动装置。		A 常开式 B 常闭式 C 电气式 D 反接";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "b")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 B" << endl;		
+}	
+int question236()			
+{			
+	string question = "塔式起重机的稳定性通常用()来表示。	A 稳定系数 B 稳定力矩 C 倾覆力矩 D 平衡重";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "a")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 A" << endl;		
+}	
+int question237()			
+{			
+	string question = "简易升降机的货厢净高度不应小于()mm。	  A 1000 B 1200 C 1500D 1800";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "D")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 D" << endl;		
+}	
+int question238()			
+{			
+	string question = "起重机载荷状态是表明起重机受载的()。";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}	
+int question()			
+{			
+	string question = "";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}	
+int question()			
+{			
+	string question = "";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}	
+int question()			
+{			
+	string question = "";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}	
+int question()			
+{			
+	string question = "";	
+    cout <<  question << endl;			
+    cin >> question;			
+    if(question == "c")			
+    	cout << "Correct! 回答正确!" << endl;		
+    else			
+    	cout << "回答错误! 正确答案是 C" << endl;		
+}	
 
 int ran()			
 {			
@@ -2601,30 +3003,22 @@ int multipleChoice()
 			
 int question()			
 {			
-	string question = "多选题：";	
+	string question = "";	
     cout <<  question << endl;			
     cin >> question;			
     if(question == "c")			
     	cout << "Correct! 回答正确!" << endl;		
     else			
     	cout << "回答错误! 正确答案是 C" << endl;		
-}			
+}	
+
+
+
 	if(ran() == 4)		
 		cout << question4() << endl;	
 			
 			
 			
-int multipleChoices9()			
-{			
-	string multipleChoices= "A B C D"		
-    cout << multipleChoices << endl;			
-    cin >> multipleChoices;			
-    if(multipleChoices == "abc")			
-    	cout << "Correct! 回答正确!" << endl;		
-    else			
-    	cout << "回答错误! 正确答案是 " << endl;		
-}			
 			
-			
-2:29			
+						
  */			
